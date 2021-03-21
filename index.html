@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Something</title>
+    <title>To Do List</title>
     <meta charset="utf-8" />
     <link rel = "stylesheet"
     href="index.css" />
   </head>
   <body>
-    <div class="js-clock">
-      <h1></h1>
-    </div>
-
+    <header>
+      <div class="js-clock">
+        <h1></h1>
+      </div>
+      <div class="js-weather"><h2></h2></div>
+    </header>
+    
+<main>
     <form class="js-form form" >
       <input type="text" placeholder="What is your name?">
     </form>
@@ -24,7 +28,14 @@
     </ul>
     <h1 id = "FINISHED">FINISHED</h1>
     <ul class="js-toDoFList"></ul>
+
+  </main>
+
+    
     <script src = "greetings.js"></script>
     <script src = "todo.js"></script>
+    <script src = "bg.js"></script>
+    <script src = "clock.js"></script>
+    <script src = "weather.js"></script>
   </body>
 </html> 

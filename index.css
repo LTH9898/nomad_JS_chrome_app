@@ -1,3 +1,22 @@
+header{
+  position: flex;
+  width: 100%;
+}
+header > .js-clock{
+  text-align:center;
+}
+
+header > .js-weather{
+  text-align : right;
+}
+  
+  
+  body{
+    background-color: #000000;
+    overflow: hidden;
+    color: white;
+  }
+
 
   .btn{
     cursor: pointer;
@@ -12,6 +31,9 @@
      display: none;
    }
 
+   .showing {
+     display: block;
+   }
  
    @keyframes fadeIn {
      from {
